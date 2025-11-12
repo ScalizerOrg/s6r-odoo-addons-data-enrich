@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo noupdate="1">
+    <template id="enrich_crm_lead_prompt_template">
+As a CRM API service, provide a valid JSON dictionary filled with datas that you will extract from the **Web Search Results**
+
+Provide the most accurate information on this company:
+
+Company name : "<t t-out="object.partner_name or object.name"/>"
+Country : <t t-out="object.country_id.name"/>
+
+
+
+# RESULT JSON DICTIONARY FORMAT
+
+{
+  <t t-if="not object.siret">"siret": "",</t>
+  "legal_name": "",
+  "name": "",
+  "description": "",
+  "contact_name": "",
+  "function": "",
+  "email_from": "",
+  "linkedin_url": ""
+  "partner_type": "",
+  "phone": "",
+  "mobile": "",
+  "website": "",
+  "web_category": "",
+  "web_description": "",
+  "street": "",
+  "street2": "",
+  "zip": "",
+  "city": "",
+  "country_id": {
+    "name": "",
+    "code": ""
+  }
+}
+
+# INSTRUCTIONS
+
+<t t-if="not object.siret">SIRET or SIREN number is required, but if the value is not available, set it to false.</t>
+If linkedin_url or website is not available, set it to false. linkedin_url must be the company's LinkedIn page.
+**web_description** must present the company in FRENCH: Company history, owners, activity, Specificities, highlights, customers type, top products or services. DO NOT USE MARKDOWN. Only raw text. 20 sentences maximum.
+**web_category** is in FRENCH, it can be a list comma separated.
+**partner_type** : "company", "association", "administration" or "other"
+The 'siret' field is highly sensitive; therefore, avoid making assertions or assumptions about it. Length is 14 characters. Without space.
+Make sure the result can be processed by the python json loads method.
+If the **Web Search Results** does not correspond to the company "<t t-out="object.name"/>" return an empty dictionary.
+
+# WEB SEARCH RESULTS
+
+<t t-out="object.web_search_result"/>
+
+
+    </template>
+
+</odoo>

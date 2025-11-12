@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo noupdate="1">
+    <record id="enrich_insee_result" model="ai.completion">
+        <field name="name">Enrich Insee Result</field>
+        <field name="model_id" ref="s6r_insee.model_search_sirene_result"/>
+        <field name="domain">[]</field>
+        <field name="max_tokens">10000</field>
+        <field name="temperature">0</field>
+        <field name="top_p">1</field>
+        <field name="response_format">json_object</field>
+        <field name="prompt_template_id" ref="enrich_insee_result_prompt_template"/>
+
+    </record>
+
+</odoo>

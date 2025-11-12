@@ -1,0 +1,6 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+access_partner_naf,access_partner_naf,model_partner_naf,base.group_user,1,0,0,0
+access_partner_naf_admin,access_partner_naf_admin,model_partner_naf,base.group_system,1,1,1,1
+access_search_sirene_wizard,access_search_sirene_wizard,model_search_sirene_wizard,base.group_user,1,1,1,1
+access_search_sirene_result,access_search_sirene_result,model_search_sirene_result,base.group_user,1,1,1,1
+access_inpi_attachment,access_inpi_attachment,model_inpi_attachment,base.group_user,1,1,1,1

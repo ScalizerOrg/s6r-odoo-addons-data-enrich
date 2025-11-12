@@ -1,0 +1,964 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* s6r_insee
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-05 14:56+0000\n"
+"PO-Revision-Date: 2025-11-05 14:56+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/models/insee_partner_mixin.py:0
+msgid "0 employees"
+msgstr "0 employé"
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/models/insee_partner_mixin.py:0
+msgid "1-2 employees"
+msgstr "1-2 employés"
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/models/insee_partner_mixin.py:0
+msgid "10-19 employees"
+msgstr "10-19 employés"
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/models/insee_partner_mixin.py:0
+msgid "100-199 employees"
+msgstr "100-199 employés"
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/models/insee_partner_mixin.py:0
+msgid "1000-1999 employees"
+msgstr "1000-1999 employés"
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/models/insee_partner_mixin.py:0
+msgid "10000+ employees"
+msgstr "10000+ employés"
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/models/insee_partner_mixin.py:0
+msgid "20-49 employees"
+msgstr "20-49 employés"
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/models/insee_partner_mixin.py:0
+msgid "200-249 employees"
+msgstr "200-249 employés"
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/models/insee_partner_mixin.py:0
+msgid "2000-4999 employees"
+msgstr "2000-4999 employés"
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/models/insee_partner_mixin.py:0
+msgid "250-499 employees"
+msgstr "250-499 employés"
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/models/insee_partner_mixin.py:0
+msgid "3-5 employees"
+msgstr "3-5 employés"
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/models/insee_partner_mixin.py:0
+msgid "50-99 employees"
+msgstr "50-99 employés"
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/models/insee_partner_mixin.py:0
+msgid "500-999 employees"
+msgstr "500-999 employés"
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/models/insee_partner_mixin.py:0
+msgid "5000-9999 employees"
+msgstr "5000-9999 employés"
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/models/insee_partner_mixin.py:0
+msgid "6-9 employees"
+msgstr "6-9 employés"
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/wizard/search_sirene_result.py:0
+msgid "A similar record already exists. %s, id=%s"
+msgstr "Un enregistrement similaire existe déjà. %s, id=%s"
+
+#. module: s6r_insee
+#: model_terms:ir.ui.view,arch_db:s6r_insee.search_sirene_result_form
+msgid "AI Data"
+msgstr "Données IA"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__ape_code
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__ape_code
+msgid "APE Code"
+msgstr "Code APE"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__ape_label
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__ape_label
+msgid "APE Label"
+msgstr "Libellé APE"
+
+#. module: s6r_insee
+#: model_terms:ir.ui.view,arch_db:s6r_insee.search_sirene_result_form
+msgid "Address"
+msgstr "Adresse"
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/wizard/insee_enriched_fields_mixin.py:0
+msgid "Administration"
+msgstr ""
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__administrative_state
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_partner_mixin__administrative_state
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__administrative_state
+msgid "Administrative State"
+msgstr "Statut administratif"
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/wizard/insee_enriched_fields_mixin.py:0
+msgid "Association"
+msgstr ""
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_inpi_attachment__attachment_date
+msgid "Attachment Date"
+msgstr "Date de la pièce jointe"
+
+#. module: s6r_insee
+#: model_terms:ir.ui.view,arch_db:s6r_insee.search_sirene_result_form
+msgid "Attachments"
+msgstr "Pièces jointes"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__credit_clients_jours
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__credit_clients_jours
+msgid "Average Customer Payment Period"
+msgstr "Délai moyen de paiement des clients"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__credit_fournisseurs_jours
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__credit_fournisseurs_jours
+msgid "Average Supplier Payment Period"
+msgstr "Délai moyen de paiement des fournisseurs"
+
+#. module: s6r_insee
+#: model:ir.model.fields,help:s6r_insee.field_insee_enriched_fields_mixin__rotation_des_stocks_jours
+#: model:ir.model.fields,help:s6r_insee.field_search_sirene_result__rotation_des_stocks_jours
+msgid "Average inventory turnover period, expressed in days."
+msgstr "Rotation moyenne des stocks en jours. Exprimé en jours"
+
+#. module: s6r_insee
+#: model:ir.model.fields,help:s6r_insee.field_insee_enriched_fields_mixin__credit_clients_jours
+#: model:ir.model.fields,help:s6r_insee.field_search_sirene_result__credit_clients_jours
+msgid "Average time taken by customers to pay, expressed in days."
+msgstr "Rotation moyenne des stocks, exprimée en jours."
+
+#. module: s6r_insee
+#: model:ir.model.fields,help:s6r_insee.field_insee_enriched_fields_mixin__credit_fournisseurs_jours
+#: model:ir.model.fields,help:s6r_insee.field_search_sirene_result__credit_fournisseurs_jours
+msgid "Average time taken to pay suppliers, expressed in days."
+msgstr "Délai moyen de paiement aux fournisseurs. Exprimé en jours"
+
+#. module: s6r_insee
+#: model:ir.model.fields.selection,name:s6r_insee.selection__inpi_attachment__type__bilans
+msgid "Balance"
+msgstr "Bilan"
+
+#. module: s6r_insee
+#: model_terms:ir.ui.view,arch_db:s6r_insee.search_sirene_wizard_view_form
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__capital
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__capital
+msgid "Capital"
+msgstr ""
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__caf_sur_ca
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__caf_sur_ca
+msgid "Cash Flow to Revenue Ratio"
+msgstr "Capacité d'Autofinancement sur le CA"
+
+#. module: s6r_insee
+#: model:ir.model.fields,help:s6r_insee.field_insee_enriched_fields_mixin__caf_sur_ca
+#: model:ir.model.fields,help:s6r_insee.field_search_sirene_result__caf_sur_ca
+msgid "Cash Flow to Revenue Ratio expressed as a percentage."
+msgstr ""
+"Ratio de la Capacité d'Autofinancement sur le Chiffre d'Affaires exprimé en "
+"pourcentage."
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__city
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__city
+msgid "City"
+msgstr "Ville"
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/wizard/insee_enriched_fields_mixin.py:0
+msgid "Company"
+msgstr "Société"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__company_category
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_partner_mixin__company_category
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__company_category
+msgid "Company Category"
+msgstr "Catégorie d'entreprise"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_wizard__company_name
+msgid "Company Name"
+msgstr "Nom de l'entreprise"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__company_object
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__company_object
+msgid "Company Object"
+msgstr "Objet de l'entreprise"
+
+#. module: s6r_insee
+#: model:ir.model.fields,help:s6r_insee.field_insee_enriched_fields_mixin__couverture_des_interets
+#: model:ir.model.fields,help:s6r_insee.field_search_sirene_result__couverture_des_interets
+msgid ""
+"Company's ability to cover its interest expenses, expressed as a percentage."
+msgstr ""
+"Capacité de l'entreprise à couvrir ses intérêts financiers. Exprimé en "
+"pourcentage."
+
+#. module: s6r_insee
+#: model:ir.model.fields,help:s6r_insee.field_insee_enriched_fields_mixin__capacite_de_remboursement
+#: model:ir.model.fields,help:s6r_insee.field_search_sirene_result__capacite_de_remboursement
+msgid "Company's ability to repay its debts."
+msgstr "Capacité de l'entreprise à rembourser ses dettes."
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__country_id
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__country_id
+#: model_terms:ir.ui.view,arch_db:s6r_insee.search_sirene_result_search
+msgid "Country"
+msgstr "Pays"
+
+#. module: s6r_insee
+#: model_terms:ir.ui.view,arch_db:s6r_insee.search_sirene_result_form
+#: model_terms:ir.ui.view,arch_db:s6r_insee.search_sirene_wizard_view_form
+msgid "Create"
+msgstr "Créer"
+
+#. module: s6r_insee
+#: model_terms:ir.actions.act_window,help:s6r_insee.partner_naf_action
+msgid "Create a new NAF APE Code"
+msgstr "Créer un nouveau code NAF APE"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_inpi_attachment__create_uid
+#: model:ir.model.fields,field_description:s6r_insee.field_partner_naf__create_uid
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__create_uid
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_wizard__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_inpi_attachment__create_date
+#: model:ir.model.fields,field_description:s6r_insee.field_partner_naf__create_date
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__create_date
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_wizard__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__creation_date
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__creation_date
+msgid "Creation Date"
+msgstr "Date de création"
+
+#. module: s6r_insee
+#: model:ir.model.fields,help:s6r_insee.field_insee_enriched_fields_mixin__resultat_courant_avant_impots_sur_ca
+#: model:ir.model.fields,help:s6r_insee.field_search_sirene_result__resultat_courant_avant_impots_sur_ca
+msgid "Current Result Before Tax as a percentage of revenue."
+msgstr ""
+"Résultat courant avant impôts sur le chiffre d'affaires. Exprimé en "
+"pourcentage"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__resultat_courant_avant_impots_sur_ca
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__resultat_courant_avant_impots_sur_ca
+msgid "Current Result Before Tax to Revenue Ratio"
+msgstr "Résultat courant avant impôts sur CA"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__data_enriched
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__data_enriched
+msgid "Data Enriched"
+msgstr "Données Enrichies"
+
+#. module: s6r_insee
+#: model_terms:ir.ui.view,arch_db:s6r_insee.search_sirene_result_form
+msgid "Date"
+msgstr ""
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__debt_rate
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__debt_rate
+msgid "Debt Rate"
+msgstr "Taux d'endettement"
+
+#. module: s6r_insee
+#: model:ir.model.fields.selection,name:s6r_insee.selection__inpi_attachment__type__actes
+msgid "Deed"
+msgstr "Acte"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_wizard__department
+msgid "Department Code"
+msgstr "Code département"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_inpi_attachment__display_name
+#: model:ir.model.fields,field_description:s6r_insee.field_partner_naf__display_name
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__display_name
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_wizard__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: s6r_insee
+#: model_terms:ir.ui.view,arch_db:s6r_insee.search_sirene_result_form
+msgid "Documents"
+msgstr ""
+
+#. module: s6r_insee
+#: model_terms:ir.ui.view,arch_db:s6r_insee.search_sirene_result_form
+msgid "Download"
+msgstr "Télécharger"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__ebe
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__ebe
+msgid "EBE"
+msgstr ""
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__marge_ebe
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__marge_ebe
+msgid "EBE Margin"
+msgstr "Marge EBE"
+
+#. module: s6r_insee
+#: model:ir.model.fields,help:s6r_insee.field_insee_enriched_fields_mixin__marge_ebe
+#: model:ir.model.fields,help:s6r_insee.field_search_sirene_result__marge_ebe
+msgid "EBE Margin as a percentage of total revenue."
+msgstr "Marge sur Excédent Brut d'Exploitation (EBE). Exprimé en pourcentage"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__ebit
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__ebit
+msgid "EBIT"
+msgstr ""
+
+#. module: s6r_insee
+#: model_terms:ir.ui.view,arch_db:s6r_insee.search_sirene_result_form
+msgid "Enrich"
+msgstr "Enrichir"
+
+#. module: s6r_insee
+#: model_terms:ir.ui.view,arch_db:s6r_insee.search_sirene_result_search
+msgid "Enriched Data"
+msgstr "Données Enrichies"
+
+#. module: s6r_insee
+#: model:ir.model.fields.selection,name:s6r_insee.selection__inpi_attachment__type__bilans-saisis
+msgid "Entry Balance"
+msgstr "Balance de saisie"
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/models/inpi_partner_mixin.py:0
+msgid "Error connecting to INPI API: %s"
+msgstr "Erreur lors de la connexion de l'API INPI: %s"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__establishment_creation_date
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_partner_mixin__establishment_creation_date
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__establishment_creation_date
+msgid "Establishment Creation Date"
+msgstr "Date de création de l'entreprise"
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/models/inpi_partner_mixin.py:0
+msgid "Failed to get token from INPI API"
+msgstr "Erreur lors de l'obtention du token de l'API INPI"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_inpi_attachment__data
+msgid "File"
+msgstr "Fichier"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__autonomie_financiere
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__autonomie_financiere
+msgid "Financial Autonomy"
+msgstr "Autonomie Financière"
+
+#. module: s6r_insee
+#: model:ir.model.fields,help:s6r_insee.field_insee_enriched_fields_mixin__autonomie_financiere
+#: model:ir.model.fields,help:s6r_insee.field_search_sirene_result__autonomie_financiere
+msgid "Financial Autonomy expressed as a percentage."
+msgstr "Autonomie financière. Exprimé en pourcentage"
+
+#. module: s6r_insee
+#: model_terms:ir.ui.view,arch_db:s6r_insee.search_sirene_result_form
+msgid "Financial Data"
+msgstr "Données Financières"
+
+#. module: s6r_insee
+#: model_terms:ir.ui.view,arch_db:s6r_insee.search_sirene_result_form
+msgid "Financial Ratios"
+msgstr "Ratios Financiers"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__fiscal_year_closing_date
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__fiscal_year_closing_date
+msgid "Fiscal Year Closing Date"
+msgstr "Date de clôture de l'exercice fiscal"
+
+#. module: s6r_insee
+#: model_terms:ir.ui.view,arch_db:s6r_insee.search_sirene_result_form
+msgid "Get Financial Ratios"
+msgstr "Obtenir les ratios financiers"
+
+#. module: s6r_insee
+#: model_terms:ir.ui.view,arch_db:s6r_insee.search_sirene_result_form
+msgid "Get INPI Attachments"
+msgstr "Obtenir les documents INPI"
+
+#. module: s6r_insee
+#: model_terms:ir.ui.view,arch_db:s6r_insee.search_sirene_result_form
+msgid "Get INPI datas"
+msgstr "Obtenir les données INPI"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__gross_margin
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__gross_margin
+msgid "Gross Margin"
+msgstr "Marge brute"
+
+#. module: s6r_insee
+#: model_terms:ir.ui.view,arch_db:s6r_insee.search_sirene_result_search
+msgid "Group By"
+msgstr "Regrouper par"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_inpi_attachment__id
+#: model:ir.model.fields,field_description:s6r_insee.field_partner_naf__id
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__id
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_wizard__id
+msgid "ID"
+msgstr ""
+
+#. module: s6r_insee
+#: model:ir.model,name:s6r_insee.model_inpi_attachment
+msgid "INPI Attachment"
+msgstr "Pièce jointe INPI"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_inpi_partner_mixin__inpi_attachment_ids
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__inpi_attachment_ids
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_partner_mixin__inpi_attachment_ids
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__inpi_attachment_ids
+msgid "INPI Attachments"
+msgstr "Pièces jointes INPI"
+
+#. module: s6r_insee
+#: model:ir.model,name:s6r_insee.model_inpi_partner_mixin
+msgid "INPI Partner Mixin"
+msgstr ""
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/models/inpi_partner_mixin.py:0
+msgid ""
+"INPI username and password must be configured in System Parameters "
+"(s6r_insee.inpi_username and s6r_insee.inpi_password)"
+msgstr ""
+"Le nom d'utilisateur et le mot de passe INPI doivent être configurés dans "
+"les Paramètres Système (s6r_insee.inpi_username et s6r_insee.inpi_password)"
+
+#. module: s6r_insee
+#: model:ir.model,name:s6r_insee.model_insee_enriched_fields_mixin
+msgid "INSEE Enriched Fields Mixin"
+msgstr ""
+
+#. module: s6r_insee
+#: model:ir.actions.server,name:s6r_insee.action_import_naf_codes
+#: model:ir.ui.menu,name:s6r_insee.import_naf_codes_menu
+msgid "Import NAF Codes"
+msgstr "Importer les codes NAF"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_inpi_partner_mixin__inpi_json_values
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__inpi_json_values
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_partner_mixin__inpi_json_values
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__inpi_json_values
+msgid "Inpi Json Values"
+msgstr "Valeurs JSON INPI"
+
+#. module: s6r_insee
+#: model:ir.model,name:s6r_insee.model_insee_data_mixin
+msgid "Insee Data Mixin"
+msgstr ""
+
+#. module: s6r_insee
+#: model:ir.model,name:s6r_insee.model_insee_partner_mixin
+msgid "Insee Partner Mixin"
+msgstr ""
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__couverture_des_interets
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__couverture_des_interets
+msgid "Interest Coverage Ratio"
+msgstr "Couverture des intérêts"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__rotation_des_stocks_jours
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__rotation_des_stocks_jours
+msgid "Inventory Turnover in Days"
+msgstr "Rotation des stocks en jours"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_inpi_attachment__key
+msgid "Key"
+msgstr "ID"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_inpi_attachment__write_uid
+#: model:ir.model.fields,field_description:s6r_insee.field_partner_naf__write_uid
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__write_uid
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_wizard__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_inpi_attachment__write_date
+#: model:ir.model.fields,field_description:s6r_insee.field_partner_naf__write_date
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__write_date
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_wizard__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__legal_name
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_partner_mixin__legal_name
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__legal_name
+msgid "Legal Name"
+msgstr "Nom légal"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__company_legal_type
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_partner_mixin__company_legal_type
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__company_legal_type
+msgid "Legal Type"
+msgstr "Type juridique"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__linkedin_url
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__linkedin_url
+msgid "Linkedin Url"
+msgstr "URL LinkedIn"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__ratio_de_liquidite
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__ratio_de_liquidite
+msgid "Liquidity Ratio"
+msgstr "Ratio de liquidité"
+
+#. module: s6r_insee
+#: model:ir.model.fields,help:s6r_insee.field_insee_enriched_fields_mixin__ratio_de_liquidite
+#: model:ir.model.fields,help:s6r_insee.field_search_sirene_result__ratio_de_liquidite
+msgid "Liquidity Ratio expressed as a percentage."
+msgstr "Ratio de liquidité exprimé en pourcentage"
+
+#. module: s6r_insee
+#: model:ir.model.fields,help:s6r_insee.field_insee_enriched_fields_mixin__ebit
+#: model:ir.model.fields,help:s6r_insee.field_search_sirene_result__ebit
+msgid ""
+"Measures the profitability of the company after deducting operating costs, "
+"but before interest and taxes."
+msgstr ""
+"Mesure la rentabilité de l'entreprise après déduction des coûts "
+"d'exploitation, mais avant les intérêts et les impôts."
+
+#. module: s6r_insee
+#: model:ir.model.fields,help:s6r_insee.field_insee_enriched_fields_mixin__ebe
+#: model:ir.model.fields,help:s6r_insee.field_search_sirene_result__ebe
+msgid ""
+"Measures the profitability of the company before interest, taxes, "
+"depreciation, and amortization."
+msgstr "Marge sur Excédent Brut d'Exploitation (EBE). Exprimé en pourcentage"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__model
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_wizard__model
+msgid "Model"
+msgstr "Modèle"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__naf_id
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_partner_mixin__naf_id
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__naf_id
+msgid "NAF"
+msgstr ""
+
+#. module: s6r_insee
+#: model:ir.model,name:s6r_insee.model_partner_naf
+#: model_terms:ir.ui.view,arch_db:s6r_insee.partner_naf_view_form
+#: model_terms:ir.ui.view,arch_db:s6r_insee.partner_naf_view_tree
+msgid "NAF APE"
+msgstr ""
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/models/partner_naf.py:0
+#: model:ir.actions.act_window,name:s6r_insee.partner_naf_action
+#: model:ir.ui.menu,name:s6r_insee.partner_naf_menu
+msgid "NAF APE Codes"
+msgstr "Codes NAF APE"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__naf_code
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_partner_mixin__naf_code
+#: model:ir.model.fields,field_description:s6r_insee.field_partner_naf__naf_code
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__naf_code
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_wizard__naf_id
+msgid "NAF Code"
+msgstr "Code NAF"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__nic
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__nic
+msgid "NIC"
+msgstr ""
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_inpi_attachment__name
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__name
+#: model:ir.model.fields,field_description:s6r_insee.field_partner_naf__name
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__name
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_wizard__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__net_result
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__net_result
+msgid "Net Result"
+msgstr "Résultat net"
+
+#. module: s6r_insee
+#: model_terms:ir.actions.act_window,help:s6r_insee.action_search_sirene_result
+msgid ""
+"No SIRENE search results found. Start a new search to see results here."
+msgstr ""
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/wizard/search_sirene_result.py:0
+msgid "No target model"
+msgstr ""
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/models/insee_partner_mixin.py:0
+msgid "Non-employing units"
+msgstr "Unités non-employeuses"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__ratio_de_vetuste
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__ratio_de_vetuste
+msgid "Obsolescence Ratio"
+msgstr "Ratio de vétusté"
+
+#. module: s6r_insee
+#: model:ir.model.fields,help:s6r_insee.field_insee_enriched_fields_mixin__ratio_de_vetuste
+#: model:ir.model.fields,help:s6r_insee.field_search_sirene_result__ratio_de_vetuste
+msgid "Obsolescence Ratio expressed as a percentage."
+msgstr "Ratio de vétusté. Exprimé en pourcentage"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__opendata_json_values
+msgid "Opendata Json Values"
+msgstr "Données JSON OpenData"
+
+#. module: s6r_insee
+#: model:ir.model,name:s6r_insee.model_opendata_mixin
+msgid "Opendata Mixin"
+msgstr ""
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/models/opendata_mixin.py:0
+msgid ""
+"Opendata key must be configured in System Parameters "
+"(s6r_insee.opendata_key)"
+msgstr ""
+"La clé Opendata doit être configurée dans les Paramètres Système "
+"(s6r_insee.opendata_key)"
+
+#. module: s6r_insee
+#: model:ir.model.fields,help:s6r_insee.field_insee_enriched_fields_mixin__poids_bfr_exploitation_sur_ca
+#: model:ir.model.fields,help:s6r_insee.field_search_sirene_result__poids_bfr_exploitation_sur_ca
+msgid "Operating Working Capital Requirement as a percentage of revenue."
+msgstr ""
+"Poids du Besoin en Fonds de Roulement (BFR) d'exploitation sur le chiffre "
+"d'affaires (CA). Exprimé en pourcentage"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__poids_bfr_exploitation_sur_ca_jours
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__poids_bfr_exploitation_sur_ca_jours
+msgid "Operating Working Capital Requirement in Days to Revenue Ratio"
+msgstr "Poids BFR d'exploitation sur CA en jours"
+
+#. module: s6r_insee
+#: model:ir.model.fields,help:s6r_insee.field_insee_enriched_fields_mixin__poids_bfr_exploitation_sur_ca_jours
+#: model:ir.model.fields,help:s6r_insee.field_search_sirene_result__poids_bfr_exploitation_sur_ca_jours
+msgid ""
+"Operating Working Capital Requirement in days as a percentage of revenue."
+msgstr ""
+"Poids du Besoin en Fonds de Roulement (BFR) d'exploitation sur le chiffre "
+"d'affaires, en jours. Exprimé en jours"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__poids_bfr_exploitation_sur_ca
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__poids_bfr_exploitation_sur_ca
+msgid "Operating Working Capital Requirement to Revenue Ratio"
+msgstr "Poids BFR d'exploitation sur CA en pourcentage"
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/wizard/insee_enriched_fields_mixin.py:0
+msgid "Other"
+msgstr "Autre"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__owners
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__owners
+msgid "Owners"
+msgstr "Propriétaires"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_wizard__partner_id
+msgid "Partner"
+msgstr "Contact"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__partner_type
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__partner_type
+#: model_terms:ir.ui.view,arch_db:s6r_insee.search_sirene_result_search
+msgid "Partner Type"
+msgstr "Type de contact"
+
+#. module: s6r_insee
+#: model_terms:ir.ui.view,arch_db:s6r_insee.search_sirene_result_form
+msgid "Raw Data"
+msgstr "Données brutes"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__capacite_de_remboursement
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__capacite_de_remboursement
+msgid "Repayment Capacity"
+msgstr "Capacité de remboursement"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_wizard__result_count
+msgid "Result Count"
+msgstr "Nombre de résultats"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_wizard__result_ids
+msgid "Results"
+msgstr "Résultats"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__siren
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_partner_mixin__siren
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__siren
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_wizard__siren
+msgid "SIREN"
+msgstr ""
+
+#. module: s6r_insee
+#: model_terms:ir.ui.view,arch_db:s6r_insee.search_sirene_result_form
+msgid "SIRENE Search Result"
+msgstr "Résultat de recherche SIRENE"
+
+#. module: s6r_insee
+#: model:ir.actions.act_window,name:s6r_insee.action_search_sirene_result
+msgid "SIRENE Search Results"
+msgstr "Recherche SIRENE"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__siret
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__siret
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_wizard__siret
+msgid "SIRET"
+msgstr ""
+
+#. module: s6r_insee
+#: model_terms:ir.ui.view,arch_db:s6r_insee.search_sirene_wizard_view_form
+msgid "Search"
+msgstr "Rechercher"
+
+#. module: s6r_insee
+#: model_terms:ir.ui.view,arch_db:s6r_insee.partner_naf_view_search
+msgid "Search Partner NAF APE"
+msgstr "Recherche NAF APE"
+
+#. module: s6r_insee
+#: model:ir.ui.menu,name:s6r_insee.menu_search_sirene_wizard
+msgid "Search Partner in Sirene"
+msgstr "Recherche SIRENE"
+
+#. module: s6r_insee
+#. odoo-python
+#: code:addons/s6r_insee/wizard/search_sirene_wizard.py:0
+#: model:ir.actions.act_window,name:s6r_insee.search_sirene_wizard_action
+#: model:ir.model,name:s6r_insee.model_search_sirene_wizard
+msgid "Search Partner in Sirene Database"
+msgstr "Recherche SIRENE"
+
+#. module: s6r_insee
+#: model_terms:ir.ui.view,arch_db:s6r_insee.search_sirene_result_search
+msgid "Search SIRENE Results"
+msgstr "Résultats de recherche SIRENE"
+
+#. module: s6r_insee
+#: model:ir.model,name:s6r_insee.model_search_sirene_result
+msgid "Search Sirene Result"
+msgstr "Résultat de recherche SIRENE"
+
+#. module: s6r_insee
+#: model_terms:ir.ui.view,arch_db:s6r_insee.search_sirene_wizard_view_form
+msgid "Search in Sirene Database"
+msgstr "Recherche Sirene"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__sirene_json_values
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_partner_mixin__sirene_json_values
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__sirene_json_values
+msgid "Sirene Json Values"
+msgstr "Valeurs JSON SIRENE"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__street
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__street
+msgid "Street"
+msgstr "Rue"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__street2
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__street2
+msgid "Street2"
+msgstr "Rue 2"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__target_model
+msgid "Target Model"
+msgstr ""
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__turnover
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__turnover
+msgid "Turnover"
+msgstr "Chiffre d'affaires"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_inpi_attachment__type
+msgid "Type"
+msgstr ""
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__values
+msgid "Values"
+msgstr "Valeurs"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__web_category
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__web_category
+msgid "Web Category"
+msgstr "Catégorie web"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__web_description
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__web_description
+msgid "Web Description"
+msgstr "Description web"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__web_search_result
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__web_search_result
+msgid "Web Search Result"
+msgstr "Résultat de recherche web"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__website
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__website
+msgid "Website"
+msgstr "Site web"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__wizard_id
+msgid "Wizard"
+msgstr ""
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__workforce_range
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_partner_mixin__workforce_range
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__workforce_range
+msgid "Workforce Range"
+msgstr "Effectifs"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_insee_enriched_fields_mixin__zip
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_result__zip
+msgid "Zip"
+msgstr "Code postal"
+
+#. module: s6r_insee
+#: model:ir.model.fields,field_description:s6r_insee.field_search_sirene_wizard__zip_code
+msgid "Zip Code"
+msgstr "Code postal"

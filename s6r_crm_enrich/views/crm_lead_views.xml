@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="crm_lead_view_form_inherit" model="ir.ui.view">
+        <field name="name">crm.lead.view.form.inherit</field>
+        <field name="model">crm.lead</field>
+        <field name="inherit_id" ref="crm.crm_lead_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//page[@name='extra']" position="inside">
+                <group string="Enriched Data" name="siret_siren_group">
+                    <group>
+                        <field name="siret"/>
+                        <field name="siren"/>
+                        <field name="linkedin_url" widget="url"/>
+                        <field name="web_category"/>
+                        <field name="naf_id"/>
+                        <field name="workforce_range"/>
+                        <field name="capital"/>
+                        <field name="turnover"/>
+                        <field name="owners"/>
+                        <field name="company_object"/>
+                    </group>
+                </group>
+            </xpath>
+            <xpath expr="//page[@name='lead']" position="inside">
+                <group string="Enriched Data" name="siret_siren_group">
+                    <group>
+                        <field name="siret"/>
+                        <field name="siren"/>
+                        <field name="linkedin_url" widget="url"/>
+                        <field name="web_category"/>
+                        <field name="naf_id"/>
+                        <field name="workforce_range"/>
+                        <field name="capital"/>
+                        <field name="turnover"/>
+                        <field name="owners"/>
+                        <field name="company_object"/>
+                    </group>
+                </group>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- List view modification to add SIRET and SIREN columns -->
+    <record id="view_crm_lead_tree_inherit_siret_siren" model="ir.ui.view">
+        <field name="name">crm.lead.tree.inherit.siret.siren</field>
+        <field name="model">crm.lead</field>
+        <field name="inherit_id" ref="crm.crm_case_tree_view_leads"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='partner_name']" position="after">
+                <field name="siret" optional="show"/>
+                <field name="siren" optional="show"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

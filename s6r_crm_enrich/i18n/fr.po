@@ -1,0 +1,137 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* s6r_crm_enrich
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-05 15:07+0000\n"
+"PO-Revision-Date: 2025-11-05 15:07+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: s6r_crm_enrich
+#: model:ir.model.fields,field_description:s6r_crm_enrich.field_crm_lead__administrative_state
+msgid "Administrative State"
+msgstr "État Administratif"
+
+#. module: s6r_crm_enrich
+#: model:ir.model.fields,field_description:s6r_crm_enrich.field_crm_lead__capital
+msgid "Capital"
+msgstr ""
+
+#. module: s6r_crm_enrich
+#: model:ir.model.fields,field_description:s6r_crm_enrich.field_crm_lead__company_category
+msgid "Company Category"
+msgstr "Catégorie de l'entreprise"
+
+#. module: s6r_crm_enrich
+#: model:ir.model.fields,field_description:s6r_crm_enrich.field_crm_lead__company_object
+msgid "Company Object"
+msgstr "Objet de l'entreprise"
+
+#. module: s6r_crm_enrich
+#: model:ir.actions.server,name:s6r_crm_enrich.action_enrich_crm_lead
+msgid "Enrich CRM Lead"
+msgstr "Enrichir la piste"
+
+#. module: s6r_crm_enrich
+#: model:ir.actions.server,name:s6r_crm_enrich.action_enrich_crm_lead_with_ai
+msgid "Enrich CRM Lead with AI"
+msgstr "Enrichir la piste avec l'IA"
+
+#. module: s6r_crm_enrich
+#: model_terms:ir.ui.view,arch_db:s6r_crm_enrich.crm_lead_view_form_inherit
+msgid "Enriched Data"
+msgstr "Données enrichies"
+
+#. module: s6r_crm_enrich
+#: model:ir.model.fields,field_description:s6r_crm_enrich.field_crm_lead__establishment_creation_date
+msgid "Establishment Creation Date"
+msgstr "Date de création de l'établissement"
+
+#. module: s6r_crm_enrich
+#: model:ir.model.fields,field_description:s6r_crm_enrich.field_crm_lead__inpi_attachment_ids
+msgid "INPI Attachments"
+msgstr ""
+
+#. module: s6r_crm_enrich
+#: model:ir.model.fields,field_description:s6r_crm_enrich.field_crm_lead__inpi_json_values
+msgid "Inpi Json Values"
+msgstr ""
+
+#. module: s6r_crm_enrich
+#: model:ir.model,name:s6r_crm_enrich.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "Piste/opportunité"
+
+#. module: s6r_crm_enrich
+#: model:ir.model.fields,field_description:s6r_crm_enrich.field_crm_lead__legal_name
+msgid "Legal Name"
+msgstr "Nom légal"
+
+#. module: s6r_crm_enrich
+#: model:ir.model.fields,field_description:s6r_crm_enrich.field_crm_lead__company_legal_type
+msgid "Legal Type"
+msgstr "Type juridique"
+
+#. module: s6r_crm_enrich
+#: model:ir.model.fields,field_description:s6r_crm_enrich.field_crm_lead__linkedin_url
+msgid "Linkedin Url"
+msgstr "URL LinkedIn"
+
+#. module: s6r_crm_enrich
+#: model:ir.model.fields,field_description:s6r_crm_enrich.field_crm_lead__naf_id
+msgid "NAF"
+msgstr ""
+
+#. module: s6r_crm_enrich
+#: model:ir.model.fields,field_description:s6r_crm_enrich.field_crm_lead__naf_code
+msgid "NAF Code"
+msgstr "Code NAF"
+
+#. module: s6r_crm_enrich
+#: model:ir.model.fields,field_description:s6r_crm_enrich.field_crm_lead__owners
+msgid "Owners"
+msgstr "Propriétaires"
+
+#. module: s6r_crm_enrich
+#: model:ir.actions.act_window,name:s6r_crm_enrich.action_search_sirene_wizard
+#: model:ir.ui.menu,name:s6r_crm_enrich.menu_crm_sirene_wizard
+msgid "Search SIRENE"
+msgstr "Recherche SIRENE"
+
+#. module: s6r_crm_enrich
+#: model:ir.model,name:s6r_crm_enrich.model_search_sirene_result
+msgid "Search Sirene Result"
+msgstr "Résultat de recherche SIRENE"
+
+#. module: s6r_crm_enrich
+#: model:ir.model.fields,field_description:s6r_crm_enrich.field_crm_lead__sirene_json_values
+msgid "Sirene Json Values"
+msgstr ""
+
+#. module: s6r_crm_enrich
+#: model:ir.model.fields,field_description:s6r_crm_enrich.field_crm_lead__turnover
+msgid "Turnover"
+msgstr "Chiffre d'affaires"
+
+#. module: s6r_crm_enrich
+#: model:ir.model.fields,field_description:s6r_crm_enrich.field_crm_lead__web_category
+msgid "Web Category"
+msgstr "Catégorie web"
+
+#. module: s6r_crm_enrich
+#: model:ir.model.fields,field_description:s6r_crm_enrich.field_crm_lead__web_search_result
+msgid "Web Search Result"
+msgstr "Résultat de recherche web"
+
+#. module: s6r_crm_enrich
+#: model:ir.model.fields,field_description:s6r_crm_enrich.field_crm_lead__workforce_range
+msgid "Workforce Range"
+msgstr "Effectifs"

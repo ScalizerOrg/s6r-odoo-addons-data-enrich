@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <record id="search_sirene_wizard_view_form" model="ir.ui.view">
+        <field name="name">search.sirene.wizard.form</field>
+        <field name="model">search.sirene.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Search in Sirene Database">
+
+                <group>
+                    <field name="company_name"/>
+                </group>
+                <group col="1">
+                    <group col="4">
+                        <field name="zip_code"/>
+                        <field name="department"/>
+                        <field name="naf_id" options="{'no_create': True, 'no_edit': True}"/>
+                        <field name="siret"/>
+                        <field name="siren"/>
+                    </group>
+                </group>
+
+                <group col="3">
+                    <button class="btn btn-sm btn-primary" name="search_partner"
+                            string="Search" type="object" icon="fa-search"/>
+                </group>
+
+                <field name="result_ids" readonly="True">
+                    <list>
+                        <field name="name"/>
+                        <field name="street"/>
+                        <field name="zip"/>
+                        <field name="city"/>
+                        <field name="naf_id"/>
+                        <button name="action_update_record" string="Create"
+                                type="object" class="btn btn-primary" icon="fa-check"/>
+                    </list>
+                </field>
+                <footer>
+                    <button string="Cancel" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="search_sirene_wizard_action" model="ir.actions.act_window">
+        <field name="name">Search Partner in Sirene Database</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">search.sirene.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="search_sirene_wizard_view_form"/>
+        <field name="target">new</field>
+    </record>
+
+    <menuitem id="menu_search_sirene_wizard"
+              name="Search Partner in Sirene"
+              action="search_sirene_wizard_action"
+              parent="contacts.menu_contacts"
+              sequence="2"/>
+
+</odoo>

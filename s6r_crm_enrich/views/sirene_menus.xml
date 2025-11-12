@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- SIRENE Wizard Action -->
+    <record id="action_search_sirene_wizard" model="ir.actions.act_window">
+        <field name="name">Search SIRENE</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">search.sirene.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="s6r_insee.search_sirene_wizard_view_form"/>
+        <field name="target">new</field>
+        <field name="context">{'default_model': 'crm.lead'}</field>
+    </record>
+
+    <!-- CRM Menu Item -->
+    <menuitem id="menu_crm_sirene_wizard"
+              name="Search SIRENE"
+              parent="crm.crm_menu_sales"
+              action="action_search_sirene_wizard"
+              sequence="10"/>
+
+
+    <record id="action_enrich_crm_lead" model="ir.actions.server">
+        <field name="name">Enrich CRM Lead</field>
+        <field name="model_id" ref="crm.model_crm_lead"/>
+        <field name="binding_model_id" ref="crm.model_crm_lead"/>
+        <field name="binding_view_types">list,form</field>
+        <field name="state">code</field>
+        <field name="code">
+            if records:
+                for rec in records:
+                    rec.with_context(skip_ai_enrichment=True).action_enrich_record()
+        </field>
+    </record>
+
+    <record id="action_enrich_crm_lead_with_ai" model="ir.actions.server">
+        <field name="name">Enrich CRM Lead with AI</field>
+        <field name="model_id" ref="crm.model_crm_lead"/>
+        <field name="binding_model_id" ref="crm.model_crm_lead"/>
+        <field name="binding_view_types">list,form</field>
+        <field name="state">code</field>
+        <field name="code">
+            if records:
+                for rec in records:
+                    rec.action_enrich_record()
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo noupdate="1">
+    <template id="enrich_insee_result_prompt_template">
+As a Partner Enrich API service, provide a valid JSON dictionary filled with datas that you will extract from the **Web Search Results**
+
+Provide the most accurate information on this company:
+
+Company name : "<t t-out="object.name"/>"
+Country : <t t-out="object.country_id.name"/>
+
+
+
+# RESULT JSON DICTIONARY FORMAT
+
+{"web_category": "",
+"web_description": "",
+"website": "",
+"phone": "",
+"email": "",
+"linkedin_url": ""
+"partner_type": "",
+<t t-if="not object.siret">"siret": "",</t>
+<t t-if="not object.siren">"siren": "",</t>
+"linkedin_url": ""}
+
+# INSTRUCTIONS
+
+<t t-if="not object.siret">SIRET or SIREN number is required, but if the value is not available, set it to false.</t>
+If linkedin_url or website is not available, set it to false.
+**web_description** must present the company in FRENCH: Company history, owners, activity, Specificities, highlights, customers type, top products or services. DO NOT USE MARKDOWN. Only raw text. 20 sentences maximum.
+**web_category** is in FRENCH, it can be a list comma separated.
+**partner_type** : "company", "association", "administration" or "other"
+The 'siret' field is highly sensitive; therefore, avoid making assertions or assumptions about it.
+Make sure the result can be processed by the python json loads method.
+If the **Web Search Results** does not correspond to the company "<t t-out="object.name"/>" return an empty dictionary.
+
+# WEB SEARCH RESULTS
+
+<t t-out="object.web_search_result"/>
+
+
+    </template>
+
+</odoo>
