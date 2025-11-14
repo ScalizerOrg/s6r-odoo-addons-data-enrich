@@ -49,7 +49,9 @@ class SearchSireneResult(models.TransientModel):
         enriched_fields = enriched_fields_mixin._fields.keys()
         def _check_field(field):
             return hasattr(m_model, field) and hasattr(self, field) and self[field] and field not in vals
-        other_values = {k: self[k] for k in enriched_fields if _check_field(k)}
+        def _field_value(field):
+            return self[field].id if isinstance(self[field], models.BaseModel) else self[field]
+        other_values = {k: _field_value(k) for k in enriched_fields if _check_field(k)}
         vals.update(other_values)
         return vals
 
