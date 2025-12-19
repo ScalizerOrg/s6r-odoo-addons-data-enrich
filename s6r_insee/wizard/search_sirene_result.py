@@ -10,7 +10,7 @@ _logger = logging.getLogger(__name__)
 class SearchSireneResult(models.TransientModel):
     _name = 'search.sirene.result'
     _description = 'Search Sirene Result'
-    _inherit = ['insee.enriched.fields.mixin']
+    _inherit = ['insee.enriched.fields.mixin', 'insee.partner.mixin']
 
     wizard_id = fields.Many2one('search.sirene.wizard')
     model = fields.Char()

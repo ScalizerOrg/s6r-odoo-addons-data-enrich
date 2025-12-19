@@ -1,8 +1,6 @@
 # Copyright 2025 Scalizer (<https://www.scalizer.fr>)
 # License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl.html).
 from odoo import models, fields, api, _
-from odoo.exceptions import ValidationError, UserError
-# from pynsee import macrodata as insee_data
 import logging
 
 _logger = logging.getLogger(__name__)

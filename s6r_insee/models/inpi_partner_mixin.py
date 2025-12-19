@@ -1,6 +1,5 @@
 # Copyright 2025 Scalizer (<https://www.scalizer.fr>)
 # License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl.html).
-import re
 import requests
 from odoo import models, fields, api, _
 from odoo.exceptions import ValidationError, UserError
@@ -138,7 +137,7 @@ class InpiPartnerMixin(models.AbstractModel):
         return res
 
     @api.model
-    def download_inpi_attachment(self, attachment_type, attachment_id):
+    def download_inpi_attachment(self, attachment_type, attachment_id, retry=False):
         token = self.get_inpi_token()
         headers = {
             'Content-Type': 'application/json',
@@ -147,8 +146,15 @@ class InpiPartnerMixin(models.AbstractModel):
         }
 
         url = '%s/api/%s/%s/download' % (self.inpi_base_url(), attachment_type, attachment_id)
-        res = requests.get(url, headers=headers).content
-        return res
+        res = requests.get(url, headers=headers)
+        if res.status_code == 200:
+            return res.content
+        else:
+            if res.status_code == 401 and not retry:
+                self.get_inpi_token(refresh=True)
+                return self.download_inpi_attachment(attachment_type, attachment_id, retry=True)
+            else:
+                raise UserError(_("Failed to download attachment"))
 
     @api.model
     def get_inpi_company_entry_balances(self, attachment_id):
