@@ -1,7 +1,7 @@
 # Copyright 2025 Scalizer (<https://www.scalizer.fr>)
 # License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl.html).
 from odoo import api, fields, models, _
-from odoo.osv import expression
+from odoo.fields import Domain
 from s6r_sirene.metadata import get_activity_list# pylint: disable=missing-manifest-dependency
 import logging
 
@@ -25,7 +25,7 @@ class PartnerNaf(models.Model):
         if operator not in ('=', 'ilike') or not isinstance(value, str):
             return super(PartnerNaf, self)._search_display_name(operator, value)
 
-        return expression.OR([
+        return Domain.OR([
             [('name', operator, value)],
             [('naf_code', operator, value)]
         ])

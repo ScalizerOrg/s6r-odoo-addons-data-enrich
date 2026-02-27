@@ -167,7 +167,7 @@
                 <field name="city"/>
                 <field name="country_id"/>
                 <filter string="Enriched Data" name="data_enriched" domain="[('data_enriched', '=', True)]"/>
-                <group expand="0" string="Group By">
+                <group>
                     <filter string="Partner Type" name="partner_type" context="{'group_by':'partner_type'}"/>
                     <filter string="Country" name="country_id" context="{'group_by':'country_id'}"/>
                 </group>

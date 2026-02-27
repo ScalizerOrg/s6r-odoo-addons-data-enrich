@@ -2,7 +2,7 @@
 # License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl.html).
 
 from odoo import models, fields, api, _
-from odoo.osv import expression
+from odoo.fields import Domain
 
 
 class SearchSireneResult(models.TransientModel):
@@ -18,7 +18,7 @@ class SearchSireneResult(models.TransientModel):
             if country_val.get('code'):
                 domain.append([('code', 'ilike', f"{country_val['code']}%" )])
             if len(domain) > 1:
-                domain = expression.OR(domain)
+                domain = Domain.OR(domain)
             country_id = self.env['res.country'].search(domain)
             if country_id:
                 values['country_id'] = country_id
