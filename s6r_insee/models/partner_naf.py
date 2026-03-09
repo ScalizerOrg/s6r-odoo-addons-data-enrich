@@ -2,7 +2,12 @@
 # License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl.html).
 from odoo import api, fields, models, _
 from odoo.fields import Domain
-from s6r_sirene.metadata import get_activity_list# pylint: disable=missing-manifest-dependency
+try:
+    from s6r_sirene.metadata import get_activity_list# pylint: disable=missing-manifest-dependency
+except:
+    pass
+    def get_activity_list():
+        return []
 import logging
 
 _logger = logging.getLogger(__name__)
