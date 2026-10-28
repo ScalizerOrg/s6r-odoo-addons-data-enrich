@@ -178,7 +178,7 @@
     <record model="ir.actions.act_window" id="action_search_sirene_result">
         <field name="name">SIRENE Search Results</field>
         <field name="res_model">search.sirene.result</field>
-        <field name="view_mode">tree,form</field>
+        <field name="view_mode">list,form</field>
         <field name="help" type="html">
             <p class="o_view_nocontent_smiling_face">
                 No SIRENE search results found. Start a new search to see results here.
